@@ -81,7 +81,7 @@ Output ONLY the humanized text. No preamble, no meta-commentary, no quotation ma
   try {
     const stream = await ai.chat.completions.create({
       model: 'anthropic/claude-sonnet-4-5',
-      max_tokens: 2048,
+      max_tokens: 1500,
       stream: true,
       messages: [
         { role: 'system', content: systemPrompt },
