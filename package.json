@@ -1,0 +1,17 @@
+{
+  "name": "texthuman",
+  "version": "1.0.0",
+  "description": "Professional AI Text Humanizer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "openai": "^6.39.0"
+  }
+}
